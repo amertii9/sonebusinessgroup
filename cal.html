@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sone Academy Academic Calendar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .header {
+      background: #ffffff;
+      padding: 15px 0;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+    }
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    .header-title {
+      font-size: 24px;
+      font-weight: 600;
+    }
+    .header-nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      padding: 0;
+      margin: 0;
+    }
+    .header-nav ul li {
+      display: inline;
+    }
+    .header-nav ul li a {
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .header-nav ul li a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-container">
+      <h1 class="header-title">Sone Academy</h1>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="academy.html">Home</a></li>
+          <li><a href="academy.html">About</a></li>
+          <li><a href="academy.html">Events</a></li>
+          <li><a href="academy.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <h1>Sone Academy Academic Calendar 2024-25</h1>
+    <div id="calendar"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>

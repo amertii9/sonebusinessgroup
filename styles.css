@@ -1,0 +1,72 @@
+
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: #034fdb;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.128);
+}
+
+/* FullCalendar Styles */
+.fc {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.fc-toolbar-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Styled Buttons */
+.fc-button {
+  background: linear-gradient(135deg, #034fdb, #0066ff) !important;
+  border: none !important;
+  color: white !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  padding: 8px 16px !important;
+  border-radius: 5px !important;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.fc-button:hover {
+  background: linear-gradient(135deg, #003bb3, #0051cc) !important;
+}
+
+/* Event Styles */
+.fc-event {
+  background: #00b271 !important;
+  border: none !important;
+  color: white !important;
+  font-family: 'Open Sans', sans-serif;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.fc-event:hover {
+  background: #8ED3B0 !important;
+}
+
+/* Holiday Events - Red Color */
+.fc-event.holiday  {
+  background: #FF0000 !important;
+  color: white !important;
+}
+.fc-event.holiday:hover  {
+  background: #ff5353 !important;
+  color: white !important;
+}
+
